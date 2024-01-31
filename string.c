@@ -8,7 +8,7 @@
  *
  * Return: updated lenth counter
  */
-int handle_string(va_list args, int *len)
+int string(va_list args, int *len)
 {
 	const char *str = va_arg(args, const char *);
 
