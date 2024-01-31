@@ -15,7 +15,7 @@ int handle_octal(va_list args, int *len);
 int handle_hex(va_list args, int *len);
 int handle_hex_upper(va_list args, int *len);
 int handle_pointer(va_list args, int *len);
-int printf(const char *format, ...);
+int _printf(const char *format, ...);
 int _putchar(char c);
 
 #endif
