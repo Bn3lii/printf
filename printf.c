@@ -24,10 +24,10 @@ int _printf(const char *format, ...)
 			switch (*(++ptr))
 			{
 				case 'c':
-					handle_char(args, &len);
+					handle_c(args, &len);
 					break;
 				case 's':
-					handle_string(args, &len);
+					string(args, &len);
 					break;
 				case '%':
 					len += _putchar('%');
